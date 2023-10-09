@@ -1,9 +1,10 @@
-import Example from "./components/Nav";
+import History from "./components/History";
+
 
 export default function App() {
   return (
-    <div>
-      <Example/>
+    <div className="bg-white">
+      <History/>
     </div>
   )
 }

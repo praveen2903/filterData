@@ -1,9 +1,9 @@
 import React from "react";
 const param = {
-    category:"",
+    department:"",
     keyword:"",
-    location:"",
-    lang:"en"
+    company:"",
+    year:2023
 }
 
 export const ParamContext = React.createContext(param);
